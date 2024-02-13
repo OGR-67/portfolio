@@ -1,0 +1,19 @@
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+span.cursor {
+/* Blink the cursor   */
+  animation: blink 0.7s infinite !important;
+}

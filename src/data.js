@@ -1,0 +1,154 @@
+export const projects = [
+  {
+    title: "Ambush!!!",
+    subtitle: "Python & Pygame",
+    description:
+      "Ambush!!! est un jeu 2d en Python. Le joueur doit afronter des vagues incessantes d'ennemis. Il doit résister le plus longtemps possible et ainsi obtenir le meilleur score. Disponible sur Windows, Mac et Linux.",
+    image: "ambush/ambush_preview.gif",
+    details: {
+      stack: ["Python", "Pygame", "PyInstaller", "Complex Logics"],
+      callToActions: [
+        {
+          label: "Code source",
+          link: "https://github.com/OGR-67/ambush",
+          type: "code",
+        },
+        {
+          label: "Télécharger",
+          link: "/projects/ambush/ambush_win.zip",
+          type: "download",
+          os: "windows",
+        },
+        {
+          label: "Télécharger",
+          link: "/projects/ambush/ambush_osx.zip",
+          type: "download",
+          os: "mac",
+        },
+        {
+          label: "Télécharger",
+          link: "/projects/ambush/ambush_linux.zip",
+          type: "download",
+          os: "linux",
+        },
+      ]
+    }
+  },
+  // {
+  //   title: "IntoCart",
+  //   subtitle: "Flask, React, E-commerce",
+  //   description:
+  //     "Cette application est un faux site e-commerce. Elle utilise l'API de Stripe pour le paiement. Elle est également dotée d'un système de gestion de panier et de gestion de compte utilisateur.",
+  //   image: "./project-2.gif",
+  //   link: "https://reactbootcamp.com",
+  //   details: {
+  //     stack: [],
+  //     callToActions: [
+  //       {
+  //         link: "",
+  //         type: "code",
+  //       },
+  //       {
+  //         label: "Visiter",
+  //         link: "",
+  //         type: "live-preview",
+  //       },
+  //       {
+  //         label: "Télécharger",
+  //         link: "",
+  //         type: "download",
+  //         os: "windows",
+  //       }
+  //     ]
+  //   }
+  // },
+  // {
+  //   title: "ChatChat",
+  //   subtitle: "React, Express & Websockets",
+  //   description:
+  //     "Cette application est un chat en temps réel. Elle utilise des websockets pour permettre à plusieurs utilisateurs de discuter en direct. Elle est également dotée d'un système de chat global et de chat par tag.",
+  //   image: "./project-3.gif",
+  //   link: "https://reactbootcamp.com",
+  //   details: {
+  //     stack: [],
+  //     callToActions: [
+  //       {
+  //         link: "",
+  //         type: "code",
+  //       },
+  //       {
+  //         label: "Visiter",
+  //         link: "",
+  //         type: "live-preview",
+  //       },
+  //       {
+  //         label: "Télécharger",
+  //         link: "",
+  //   //         type: "download",
+  //   //         os: "windows",
+  //   //       }
+  //   //     ]
+  //   //   }
+  //   // },
+  {
+    title: "JSXLab",
+    subtitle: "Un clone des carnets Jupyter en JSX",
+    description:
+      "Initier depuis une CLI, vous pouvez écrire du code JavaScript/JSX exécutable, du markdown et créer des graphiques. Les modifications sont persistantes car elles sont enregistrées dans un fichier.",
+    image: "jsxlab_preview.gif",
+    details: {
+      stack: ["React / Redux", "Node / Express", "TypeScript", "Commander", "Tailwind CSS", "Vite", "Lerna", "ESBuild"],
+      callToActions: [
+        {
+          label: "Code source",
+          link: "https://github.com/OGR-67/jsxlab-project/tree/main/packages/cli",
+          type: "code",
+        },
+        {
+          label: "Voir sur NPM",
+          link: "https://www.npmjs.com/package/jsxlab",
+          type: "live-preview",
+        }
+      ]
+    }
+  },
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Lors de mon arrivé en stage chez Komportementalist, Olivier a tout de suite su me mettre à l'aise. J'ai toujours eu le soutient et les conseils nécessaieres pour mener à bien les taches qui m'ont été confiées. Je recommande vivement Olivier pour son professionnalisme et sa gentillesse.",
+    image: "/romanie-de-meyer.jpg",
+    name: "Romanie De Meyer",
+    company: "Stage Dev Front @Komportementalist",
+  },
+  {
+    quote:
+      "Olivier s'est occupé de mon onboarding chez Komportementalist. Il a su me guider et m'accompagner dans la découverte de l'entreprise et de ses outils. Il a toujours été à l'écoute et disponible pour répondre à mes questions. Collaborer avec Olivier a été un réel plaisir, je le recommande vivement.",
+    image: "/clement-muth.jpg",
+    name: "Clément Muth",
+    company: "Mission Freelance Dev Fullstack @Komportementalist",
+  },
+];
+
+export const skills = [
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Node, Express",
+  "PostgreSQL, MongoDB",
+  "HTML, CSS, SASS",
+  "Tailwind CSS",
+  "Python, Django, Flask",
+  "Docker",
+  "Git, GitHub, GitHub Actions",
+];
+
+export const softSkills = [
+  "Autonomies",
+  "Esprit d'équipe",
+  "Rigueur",
+  "Curiosité",
+  "Communication",
+  "Adaptabilité",
+];
