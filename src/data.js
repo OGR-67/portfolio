@@ -31,8 +31,8 @@ export const projects = [
           type: "download",
           os: "linux",
         },
-      ]
-    }
+      ],
+    },
   },
   // {
   //   title: "IntoCart",
@@ -97,7 +97,16 @@ export const projects = [
       "Initier depuis une CLI, vous pouvez écrire du code JavaScript/JSX exécutable, du markdown et créer des graphiques. Les modifications sont persistantes car elles sont enregistrées dans un fichier.",
     image: "jsxlab_preview.gif",
     details: {
-      stack: ["React / Redux", "Node / Express", "TypeScript", "Commander", "Tailwind CSS", "Vite", "Lerna", "ESBuild"],
+      stack: [
+        "React / Redux",
+        "Node / Express",
+        "TypeScript",
+        "Commander",
+        "Tailwind CSS",
+        "Vite",
+        "Lerna",
+        "ESBuild",
+      ],
       callToActions: [
         {
           label: "Code source",
@@ -108,16 +117,16 @@ export const projects = [
           label: "Voir sur NPM",
           link: "https://www.npmjs.com/package/jsxlab",
           type: "live-preview",
-        }
-      ]
-    }
+        },
+      ],
+    },
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Lors de mon arrivé en stage chez Komportementalist, Olivier a tout de suite su me mettre à l'aise. J'ai toujours eu le soutient et les conseils nécessaieres pour mener à bien les taches qui m'ont été confiées. Je recommande vivement Olivier pour son professionnalisme et sa gentillesse.",
+      "Lors de mon arrivée en stage chez Komportementalist, Olivier a tout de suite su me mettre à l'aise. J'ai toujours eu le soutien et les conseils nécessaires pour mener à bien les tâches qui m'ont été confiées. Je recommande vivement Olivier pour son professionnalisme et sa gentillesse.",
     image: "/romanie-de-meyer.jpg",
     name: "Romanie De Meyer",
     company: "Stage Dev Front @Komportementalist",
