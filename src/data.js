@@ -34,34 +34,28 @@ export const projects = [
       ],
     },
   },
-  // {
-  //   title: "IntoCart",
-  //   subtitle: "Flask, React, E-commerce",
-  //   description:
-  //     "Cette application est un faux site e-commerce. Elle utilise l'API de Stripe pour le paiement. Elle est également dotée d'un système de gestion de panier et de gestion de compte utilisateur.",
-  //   image: "./project-2.gif",
-  //   link: "https://reactbootcamp.com",
-  //   details: {
-  //     stack: [],
-  //     callToActions: [
-  //       {
-  //         link: "",
-  //         type: "code",
-  //       },
-  //       {
-  //         label: "Visiter",
-  //         link: "",
-  //         type: "live-preview",
-  //       },
-  //       {
-  //         label: "Télécharger",
-  //         link: "",
-  //         type: "download",
-  //         os: "windows",
-  //       }
-  //     ]
-  //   }
-  // },
+  {
+    title: "Ecommer",
+    subtitle: "Projet d'entrainement à React et au payment Stripe",
+    description:
+      "Cette application est un faux site e-commerce. Elle utilise l'API de Stripe pour le paiement. Le backend de cette application étant hébergé sur le plan gratuit de render, un temps de mise en route de 1 minute environ est à prévoir. Vous pouvez utiliser la fausse CB de stripe '4242 4242 4242 4242' pour simuler un payement",
+    image: "./ecommer_preview.gif",
+    details: {
+      stack: ["React", "Strapi", "Stripe", "MaterialUI", "Yup", "Vite"],
+      callToActions: [
+        {
+          label: "Voir le code",
+          link: "https://github.com/OGR-67/ecommerce_client",
+          type: "code",
+        },
+        {
+          label: "Visiter",
+          link: "https://ecommerce-client-alpha-blue.vercel.app/",
+          type: "live-preview",
+        },
+      ],
+    },
+  },
   // {
   //   title: "ChatChat",
   //   subtitle: "React, Express & Websockets",
